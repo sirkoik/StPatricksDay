@@ -1,0 +1,75 @@
+body {
+    background: #000;
+    font-family: 'Ring of Kerry';
+}
+
+@font-face {
+    font-family: 'Ring of Kerry';
+    src: url('../fonts/Ring of Kerry.otf');
+}
+
+.flex-container, .credits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 2;
+}
+
+.credits-container {
+    display: none;
+}
+
+.credits {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 1em;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: gold;
+    text-shadow: 0em 0em 0.5em lime;
+}
+
+.credits {color: green;}
+
+.credits-open {
+    position: fixed;
+    text-align: right;
+    z-index: 2;
+    color: green;
+    bottom: 0;
+    right: 0;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.credits-open:hover {
+    color: gold;
+}
+
+a {
+    color: gold;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+a:active {
+    color: white;
+}
+
+.gilded {
+    color: gold;
+}
+
+.monospace {
+    font-family: monospace;
+    font-size: 2em;
+}
