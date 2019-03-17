@@ -8,7 +8,7 @@
 window.onload = function() {
     
     SceneJS.setConfigs({
-        pluginPath: 'http://scenejs.org/api/latest/plugins'
+        pluginPath: './scripts/plugins'
     });      
 
     // tree: rotate x to 90 to orient face on
