@@ -38,7 +38,7 @@ body {
 
 .credits {color: green;}
 
-.credits-open {
+.footer {
     position: fixed;
     text-align: right;
     z-index: 2;
@@ -46,11 +46,6 @@ body {
     bottom: 0;
     right: 0;
     padding: 1em;
-    cursor: pointer;
-}
-
-.credits-open:hover {
-    color: gold;
 }
 
 a {
@@ -69,6 +64,11 @@ a.nodecorate {
     color: green;
     text-decoration: none;
 }
+
+a.nodecorate:hover {
+    color: gold;
+}
+
 
 .gilded {
     color: gold;

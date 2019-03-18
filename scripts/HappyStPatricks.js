@@ -56,7 +56,8 @@ window.onload = function() {
     });
     
     
-    document.querySelector('.credits-open').onclick = function() {
+    document.querySelector('#credits-link').onclick = function(e) {
+        e.preventDefault();
         document.querySelector('.credits-container').style.display = 'flex';
     }
     
