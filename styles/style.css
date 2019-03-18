@@ -67,6 +67,7 @@ a.nodecorate {
 
 a.nodecorate:hover {
     color: gold;
+    text-decoration: underline;
 }
 
 
